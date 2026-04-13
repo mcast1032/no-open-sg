@@ -5,7 +5,7 @@ Wrote a policy using Rego, tested it with Conftest, and ran everything inside Gi
 
 Once I installed Terraform and Conftest again in the Codespace, and ran the codes, I was able to block one of the most common cloud misconfigurations using policy as code. This type of check can be added to the CI/CD pipeline to stope insecure deployments before they hit production. 
 
-The Lesson from this first part of the lab:
+The lesson from the first part of the lab:
 
 Open security groups are comparable to leaving your front door wide open to the world. Even if you don't intend to expose critical systems, attackers constantly scan for these entry points. Not addressing open security groups can lead to:
 
